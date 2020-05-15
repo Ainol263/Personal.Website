@@ -1,0 +1,20 @@
+div{
+margin-bottom:15px;
+padding: 4px 12px;
+}
+.first{
+background-color:#ffdddd;
+border-left: 6px solid #f44336;
+}
+.second{
+background-color:#ddffdd;
+border-left:6px solid #4caf50;
+}
+.third{
+background-color:#e7f3f3;
+border-left:6px solid #2196f3;
+}
+.fourth{
+background-color:#ffffcc;
+border-left:6px solid #ffeb3b;
+}

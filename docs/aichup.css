@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+background-color:black;
+background-size: 100%;
+font-family:elephant;
+}
+
+marquee{
+width:50%;
+font-size:24px;
+color:white;
+font-family:courier;
+}
+
+ul {
+list-style-type: none;
+margin:0;
+padding: 10;
+overflow: hidden;
+position:fixed;
+background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+a:hover:not(.active) {
+background-color:green;
+}
+
+.column{
+float:left;
+width:33.33%;
+}
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+
+input[type=text],select,textarea{
+width:100%;
+padding:10px;
+border:1 px solid green;
+border-radius: 10px;
+box-sizing:border-box;
+margin-top:6px;
+margin-bottom:16px;
+resize:vertical;
+}
+input[type=submit]{
+background-color:springgreen;
+color:black;
+padding: 12px 20px;
+border:none;
+border-radius: 4px;
+cursor: pointer;
+}
+input [type=submit]:hover{
+background-color:forestgreen;
+}
+.container{
+border-radius:5px;
+background-color:green;
+padding:10px;
+width:80%;
+left:40%;
+}
+.fa{
+padding:40px;
+font-size:50px;
+width:40px;
+text-align:center;
+text-decoration:none;
+border-radius:40%;
+}
+.fa:hover{
+opacity:0.7;
+}
+.fa-facebook{
+background:black;
+color:silver;
+}
+.fa-twitter{
+background:black;
+color:silver;
+}
+.fa-instagram{
+background:black;
+color:peachpuff;
+}
+.fa-google{
+background:black;
+color:moccasin;
+}
+
+
+
